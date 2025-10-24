@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selo Digital de Autenticidade</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+        
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .header h1 {
+            color: #667eea;
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0;
+        }
+        
+        .verified-badge {
+            background: #10b981;
+            color: white;
+            padding: 15px;
+            border-radius: 15px;
+            margin: 20px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+        }
+        
+        .verified-badge i {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        
+        .info-card {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .info-card .icon-wrapper {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+        
+        .icon-authenticity {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        .icon-production {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+        }
+        
+        .icon-legal {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+        }
+        
+        .info-card h3 {
+            color: #1f2937;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .info-card p {
+            color: #6b7280;
+            font-size: 14px;
+            line-height: 1.6;
+            margin: 0;
+        }
+        
+        .detail-item {
+            background: #f3f4f6;
+            padding: 12px;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+        
+        .detail-item strong {
+            color: #374151;
+            display: block;
+            margin-bottom: 5px;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .detail-item span {
+            color: #1f2937;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        
+        .summary-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin: 15px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .summary-box h4 {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .summary-box p {
+            font-size: 14px;
+            opacity: 0.95;
+            margin: 0;
+            line-height: 1.6;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: white;
+            font-size: 12px;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1><i class="fas fa-shield-alt"></i> Selo Digital</h1>
+        <small class="text-muted">Autenticidade Verificada</small>
+    </div>
+    
+    <div class="verified-badge">
+        <i class="fas fa-check-circle"></i>
+        <h2 class="h5 mt-2 mb-0">Produto Autêntico</h2>
+        <small>Verificado em 24/10/2025</small>
+    </div>
+    
+    <div class="info-card">
+        <div class="icon-wrapper icon-authenticity">
+            <i class="fas fa-certificate"></i>
+        </div>
+        <h3>Autenticidade da Bebida</h3>
+        <p>Sistema avançado de combate à falsificação. Este produto possui selo digital único e intransferível que garante sua originalidade.</p>
+        
+        <div class="detail-item">
+            <strong>Código de Verificação</strong>
+            <span>BR-2025-AUT-789456</span>
+        </div>
+        
+        <div class="detail-item">
+            <strong>Status</strong>
+            <span class="text-success"><i class="fas fa-check-circle"></i> Verificado</span>
+        </div>
+    </div>
+    
+    <div class="info-card">
+        <div class="icon-wrapper icon-production">
+            <i class="fas fa-industry"></i>
+        </div>
+        <h3>Histórico de Produção</h3>
+        <p>Rastreabilidade completa desde a produção até o consumidor final. Informações detalhadas sobre origem e fabricação.</p>
+        
+        <div class="detail-item">
+            <strong>Lote de Produção</strong>
+            <span>LT-2025-0842</span>
+        </div>
+        
+        <div class="detail-item">
+            <strong>Data de Fabricação</strong>
+            <span>15/09/2025</span>
+        </div>
+        
+        <div class="detail-item">
+            <strong>Local de Produção</strong>
+            <span>Destilaria Premium - São Paulo, SP</span>
+        </div>
+    </div>
+    
+    <div class="info-card">
+        <div class="icon-wrapper icon-legal">
+            <i class="fas fa-balance-scale"></i>
+        </div>
+        <h3>Legalização</h3>
+        <p>Produto devidamente registrado e autorizado pelos órgãos competentes, seguindo todas as normas vigentes.</p>
+        
+        <div class="detail-item">
+            <strong>Órgão Regulador</strong>
+            <span>MAPA - Ministério da Agricultura</span>
+        </div>
+        
+        <div class="detail-item">
+            <strong>Registro</strong>
+            <span>REG-BR-456789-2024</span>
+        </div>
+        
+        <div class="detail-item">
+            <strong>Validade do Registro</strong>
+            <span>Válido até 31/12/2030</span>
+        </div>
+    </div>
+    
+    <div class="summary-box">
+        <h4><i class="fas fa-info-circle"></i> Em Resumo</h4>
+        <p>Este é um <strong>selo digital de segurança e transparência</strong>, garantindo que o produto na garrafa é <strong>original e legal</strong>. Você pode confiar na autenticidade, origem e conformidade legal desta bebida.</p>
+    </div>
+    
+    <div class="footer">
+        <p><i class="fas fa-lock"></i> Tecnologia blockchain de segurança</p>
+        <p class="mt-2">© 2025 - Sistema de Verificação Digital</p>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
